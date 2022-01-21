@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+
+/*----------------------------------------------------
+		Reset
+----------------------------------------------------*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,div,table,th,td,address,pre,blockquote,form,noscript { margin: 0; padding: 0; }
+html { height: 100%; margin-bottom: 1px; }
+img { border-style: none; vertical-align: bottom; }
+table { border-collapse: collapse; border-spacing: 0; }
+em,address { font-style:normal; }
+ul,ol { list-style:none; }
+
+
+/*----------------------------------------------------
+		Default
+----------------------------------------------------*/
+body {
+	font-size:75%;
+	background: #ffffff;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,table,address {
+	line-height:1.5;
+	color:#333333;
+}
+ul ul,ul ol,ul dl,ol ul,ol ol,ol dl,dl ul,dl ol,dl dl,
+td ul,td ol,td dl,td table,dd ul,dd ol,dd table {
+	font-size:100%;
+	line-height:1.5;
+}
+
+
+/*----------------------------------------------------
+		Common Setting
+----------------------------------------------------*/
+
+/* Clear */
+.cl { clear:both; }
+
+.clearfix { position:relative; }
+.clearfix:after { content: " "; display: block; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+
+/* Link */
+a:link { color: #003399; text-decoration: underline; }
+a:visited { color: #003399; text-decoration: underline; }
+a:hover { color: #003399; text-decoration: none; }
+a:active { color: #003399; text-decoration: none; }
+
+/*	Image hover */
+#contents .onimg a:hover img { opacity: 0.8; filter:alpha(opacity=80);}
+
+
+
+/*----------------------------------------------------
+	#Container
+----------------------------------------------------*/
+#container {
+	width:901px;
+	margin:0 auto;
+}
+
+
+/*----------------------------------------------------
+	#Header
+----------------------------------------------------*/
+#header {
+	font-size:84%;
+	padding-bottom:3px;}
+#logo {
+	float:left;
+}
+#logoR {
+	float:right;
+	padding-left:12px;
+}
+#headR {
+	float:right;
+	width:715px;
+	margin-top:12px;
+	text-align:right;
+}
+#headR ul {
+	float:right;
+	padding-top:10px;
+}
+#headR li {
+	display:inline;
+	vertical-align:bottom;
+}
+
+/*	文字サイズ変更
+---------------------------------*/
+#sizechange {
+	margin-top:-3px;
+	padding-left:4px;
+}
+#sizechange li {
+	float:left;
+	font-size:0;
+}
+#sizechange span {
+	display:none;
+}
+#sizechange li a {
+	display:block;
+	width:17px;
+	height:17px;
+}
+#sizechange li.sizeS a { background:url(../topimg/sizeS.gif) left top no-repeat; width:15px; }
+#sizechange li.sizeM a { background:url(../topimg/sizeM.gif) left -17px no-repeat; }
+#sizechange li.sizeL a { background:url(../topimg/sizeL.gif) left top no-repeat; }
+#sizechange li.sizeS a:hover,
+#sizechange li.sizeM a:hover,
+#sizechange li.sizeL a:hover { background-position:0 -17px; }
+
+
+/*	言語選択
+---------------------------------*/
+#lang {
+	margin-top:5px;
+	padding-bottom:0px;
+}
+
+
+/*----------------------------------------------------
+	#Contents
+----------------------------------------------------*/
+#contents {
+	margin-top:6px;
+}
+
+/*	#areaL
+-----------------------------*/
+#areaL {
+	float:left;
+	width:345px;
+}
+
+#areaL .delay {
+	width:345px;
+	padding-top:5px;
+	text-align:center;
+	border:solid #8c8c8c;
+	border-width:1px 1px 0 1px;
+	background:#1e79d5;
+}
+#areaL .delay input {
+	vertical-align:bottom;
+}
+#areaL .info {
+	border:1px solid #8d8d8d;
+	background:#e8e8e8;
+}
+#areaL .info div {
+	padding:9px 9px 9px 10px;
+	border-top:1px solid #ffffff;
+	border-right:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+}
+#areaL .service {
+	margin-top:13px;
+}
+#areaL .bus {
+	margin:13px 0 6px;
+}
+#areaL .banner td img {
+	padding:3px 0 0 1px;
+}
+
+/* 乗り継ぎ検索　2010.7追加 */
+#areaL .transit {
+	background:#e5e5e5;
+	border:1px solid #8a8a8a;
+}
+#areaL .transit .ttl {
+	padding:10px 0 10px 12px;
+	border-bottom:1px solid #8a8a8a;
+}
+#areaL .transit .spec {
+	padding-top:8px;
+	border-top:1px solid #ffffff;
+}
+#areaL .transit .spec dl {
+	margin:0 0 5px 10px;
+}
+#areaL .transit .spec dt {
+	font-weight:bold;
+}
+#areaL .transit .spec input {
+	margin-left:0;
+}
+#areaL .transit .spec select {
+	margin-bottom:3px;
+	margin-left:0;
+	vertical-align:middle;
+}
+#areaL .transit .spec .radiobtn {
+	vertical-align:-0.15em;
+}
+#areaL .transit .spec .box {
+	width:115px;
+	height:13px;
+}
+#areaL .transit .spec .btn {
+	margin-bottom:5px;
+	behavior: url("js/csshover.htc");
+}
+#areaL .transit .spec .btn input:hover { opacity: 0.8; filter:alpha(opacity=80);}
+
+/*	#areaL_bottom
+-----------------------------*/
+#areaL_bottom {
+	float:left;
+	width:345px;
+}
+
+/*	#areaR
+-----------------------------*/
+#areaR {
+	float:right;
+	width:551px;
+}
+#areaR .lang {
+	margin-right:1px;
+	background:#004896;
+}
+
+/*	#areaR_bottom
+-----------------------------*/
+#areaR_bottom {
+	float:right;
+	width:551px;
+}
+/* News */
+#areaR_bottom dt {
+	margin-top:0px;
+}
+#areaR_bottom dd {
+	margin-left:5px;
+}
+#areaR_bottom img {
+	vertical-align:top;
+}
+#areaR_bottom th, #areaR_bottom td {
+	padding:5px 0 0 7px;
+	line-height:1.34;
+	vertical-align:top;
+}
+#areaR_bottom th {
+	white-space:nowrap;
+	font-weight:normal;
+	color:#cc0000;
+}
+#areaR_bottom th span {
+	color:#333333;
+}
+
+
+
+/*----------------------------------------------------
+	#Footer
+----------------------------------------------------*/
+#fnav {
+	margin:35px 2px 8px 0;
+	text-align:right;
+}
+#fnav li {
+	display:inline;
+	padding-left:5px;
+	font-size:92%;
+}
+#fnav li a {
+	padding-left:13px;
+	text-decoration:none;
+	color:#333333;
+	background:url(../topimg/arrow.gif) left center no-repeat;
+}
+
+#footer {
+	height:23px;
+	padding:0 7px;
+	background:#cccccc;
+}
+#footer ul {
+	float:left;
+	font-size:84%;
+	line-height:23px;
+}
+#footer li {
+	display:inline;
+}
+#footer address {
+	float:right;
+	font-size:84%;
+	line-height:23px;
+	text-align:right;
+}
+
+
+
+/*----------------------------------------------------
+	Linkbtn new
+----------------------------------------------------*/
+#linkbtn {
+	width:150px;
+}
+#linkbtn .info div {
+	padding:9px 6px;
+	border:solid #8d8d8d;
+	border-width:0 1px 1px 1px;
+	background:#e8e8e8;
+}
+#linkbtn .info input {
+	vertical-align:bottom;
+}
+#linkbtn .delay {
+	margin:3px 0 9px;
+	padding-bottom:7px;
+	border-bottom:1px solid #999999;
+}
+#linkbtn .service {
+	margin-top:9px;
+}
+
+
+
+/*----------------------------------------------------
+	Main head
+----------------------------------------------------*/
+#mainhead {
+	padding-left:15px;
+	background:url(../keisei/linkimg/main_head.gif) left top no-repeat;
+}
+#mainhead li {
+	display:inline;
+	color:#ffffff;
+	line-height:29px;
+}
+#mainhead a:link { color: #ffffff; text-decoration: none; }
+#mainhead a:visited { color: #ffffff; text-decoration: none; }
+#mainhead a:hover { color: #ffe400; text-decoration: underline; }
+#mainhead a:active { color: #ffe400; text-decoration: underline; }
+
+
+
+/*----------------------------------------------------
+	Index Rollover
+----------------------------------------------------*/
+p#index_mainbtn {
+  background: url(../topimg/mainbtn.gif) left top no-repeat;
+}
+p.index_mainbtn_s10 {
+  background-position: left top !important;
+}
+p.index_mainbtn_s11 {
+  background-position: left -23px !important;
+}
+p.index_mainbtn_s12 {
+  background-position: left -46px !important;
+}
+p.index_mainbtn_s13 {
+  background-position: left -69px !important;
+}
+p.index_mainbtn_s20 {
+  background-position: left -92px !important;
+}
+p.index_mainbtn_s21 {
+  background-position: left -115px !important;
+}
+p.index_mainbtn_s22 {
+  background-position: left -138px !important;
+}
+p.index_mainbtn_s23 {
+  background-position: left -161px !important;
+}
+
+
+/*----------------------------------------------------
+	KCC追加分
+----------------------------------------------------*/
+#areaL .emgc_on {background-color:#FFCCCC; font-size:13px;}
+#areaL .emgc_off {background-color:#e8e8e8; font-size:13px;}
+#areaR #emgc_news {padding:8px 0px 8px 0px;}
+#areaR #emgc_news a {color:#CC6000; font-size:13px;}
+
+.noscript {font-size:9px; color:#808080}
+
+

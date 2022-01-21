@@ -1,0 +1,77 @@
+@charset "Shift_JIS";
+/*
+	KDK
+
+	Create Date 2008-09-04
+	Last Update 2008-09-04
+
+	Copyright (C)2008 KCC
+*/
+
+/*
+===============================================================
+|
+===============================================================
+*/
+body{font-size:14px;width:100%;margin:auto;}
+h2 { text-align:left; background-image:url(../image/ttl_h2.gif); line-height:54px; text-indent:30px; color:#FFFFFF; font-size:22px;}
+
+#delay_sel{ width:100%; text-align:left;}
+#delay_sel table{text-align:center; border:1px solid #CCCCCC; border-collapse:collapse; background-image:url(../image/bg01.gif);}
+#delay_sel table th{border:1px solid #CCCCCC; padding:6px 0px; color:#FFFFFF; font-size:12px;}
+#delay_sel table td{border:1px solid #CCCCCC; padding:5px; background-color:#FFFFFF; white-space:nowrap;}
+
+#delay_sel form{margin:0px; padding:0px;}
+#delay_sel button{border:none; background-color:#FFFFFF; padding:0px;}
+#delay_sel button{background-image:url(../image/bg00.gif); border-bottom-style:solid; border-bottom-color:#0000FF; border-bottom-width:1px; color:#0000FF; font-size:11px;}
+
+#delay_sel h3 { background-image:url(../image/ttl_bg01.gif); line-height:25px; text-indent:30px; color:#FFFFFF; font-size:15px; margin-top:0px;}
+#delay_sel ul { padding-right:20px;}
+
+#delay_sel #msg01{ text-align:left; background-color:#FFFFFF; border-color:#CCCCCC; border-style:solid; border-width:1px;}
+#delay_sel #msg02{ text-align:left; background-color:#FFFFFF; border-color:#CCCCCC; border-style:solid; border-width:1px;}
+
+#delay_sel .bg_a{ background-color:#FFFFFF;}
+#delay_sel .bg_b{ background-color:#DDFFFF; background-image:url(../image/bg02.gif);}
+#delay_sel .bg_before{ background-color:#CCCCCC; background-image:url(../image/bg_before.gif); border:solid 1px #FFFFFF;}
+.bg_msg{ background-color:#DDFFFF; background-image:url(../image/bg03.gif);}
+.bg_date{background-color:#FFFFFF; background-image:url(../image/bg03.gif); font-size:12px; height:40px;}
+
+#delay_sel .scope{border:1px solid #333333;padding:0px 8px;}
+#doc .scope{padding:0px 8px;text-align:left;}
+#doc .scope{margin:auto;width:624px;}
+#delay_sel .scope dl dt,
+#doc .scope dl dt{float:left;}
+#delay_sel .scope dl dd,
+#doc .scope dl dd{margin-left: 86px;text-indent: -12px;}
+#delay_sel .scope dl dd:before,
+#doc .scope dl dd:before{content: "ÅF";}
+
+
+
+.route_ttl { margin:0px; padding:0px; text-align:left;}
+
+
+#doc{ margin-top:50px;}
+
+#print a{display:block;margin:auto; margin-top:30px;}
+#print a{line-height:30px;height:30px;width:120px;vertical-align:middle;color:#FFFFFF;}
+#print a{background-image:url(../image/btn_01.gif);background-repeat:no-repeat;background-position:center;}
+#print a:hover{background-image:url(../image/btn_01_on.gif);background-repeat:no-repeat;background-position:center;}
+#print msg{ color:#999999; font-size:10px;}
+
+#flash_player{width:860px;margin:auto;}
+#flash_player .fl_l{float:left; margin-left:20px; text-align:left; vertical-align:middle;}
+
+#flash_player img{border:none;}
+
+#flash_player table{ width:700px; margin:auto;}
+#flash_player table,#flash_player th,#flash_player td{ border:1px solid #cccccc;}
+#flash_player th{ font-size:18px;}
+#flash_player table table{ border:none; border-collapse:collapse; width:640px;}
+#flash_player table table th{ padding:5px; background-color:#0000FF; color:#ffffff;}
+#flash_player table table td{ text-align:left; padding:5px;}
+
+
+.timezone { width:96px;white-space:nowrap;}
+
