@@ -22,7 +22,19 @@
 </tr>
 <tr>
 <td>
-<p>2022年01月07日（金）</p>
+<p><script>
+//今日の日付データを変数に格納
+//変数は"today"とする
+var today=new Date(); 
+//年・月・日・曜日を取得
+var year = today.getFullYear();
+var month = today.getMonth()+1;
+var week = today.getDay();
+var day = today.getDate();
+var week_ja= new Array("日","月","火","水","木","金","土");
+//年・月・日・曜日を書き出す
+document.write(year+"年"+month+"月"+day+"日（"+week_ja[week]+"）");
+</script></p>
 <p>京成線が以下の通り、遅延したことを証明します。<br>ご迷惑をおかけし、誠に申し訳ございませんでした。</p>
 <div class="scope">
 <p>路線区分</p>
@@ -49,7 +61,19 @@
 <td>10分</td>
 </tr>
 </tbody></table>
-<div style="text-align:right; font-size:17px;">2022年01月07日（金）<br>京成電鉄株式会社</div>
+<div style="text-align:right; font-size:17px;"><script>
+//今日の日付データを変数に格納
+//変数は"today"とする
+var today=new Date(); 
+//年・月・日・曜日を取得
+var year = today.getFullYear();
+var month = today.getMonth()+1;
+var week = today.getDay();
+var day = today.getDate();
+var week_ja= new Array("日","月","火","水","木","金","土");
+//年・月・日・曜日を書き出す
+document.write(year+"年"+month+"月"+day+"日（"+week_ja[week]+"）");
+</script><br>京成電鉄株式会社</div>
 </td>
 </tr>
 </tbody></table>
