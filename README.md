@@ -3,4 +3,4 @@
 # 
 画像が表示されないバグ発生中/多分直さない
 # 
-https://tinnguruma.giyhub.io/keisei.co.jp-keisei-tetudou-delay/
+https://tinnguruma.github.io/keisei.co.jp-keisei-tetudou-delay/
